@@ -1,0 +1,77 @@
+.halfbox2 {
+    .text-box {
+        font-size    : 16px;
+        line-height  : 1.71;
+        color        : $second_color;
+        font-family  : $font_family_second;
+        margin-bottom: 30px;
+    }
+
+    .tab-content {
+        margin-bottom: 30px;
+        .heading {
+            font-size       : 22px;
+            line-height     : 1.27;
+            font-weight     : 500;
+            color           : #fff;
+            background-color: $primary_color;
+            font-family     : $font_family;
+            padding         : 16px 20px 17px;
+            margin-bottom   : 0;
+        }
+
+        ul.tabs {
+            padding-left: 0;
+            list-style  : none;
+            margin-bottom: 0;
+            .tab-menu {
+                span.title {
+                    display         : block;
+                    font-size       : 20px;
+                    font-family     : $font_family;
+                    font-weight     : 500;
+                    color           : $primary_color;
+                    line-height     : 1.22;
+                    padding         : 14px 20px;
+                    border-top      : solid 1px #ffffff;
+                    background-color: #ededed;
+                    position        : relative;
+                    cursor          : pointer;
+
+                    span {
+                        padding-right: 40px;
+                    }
+
+                    i {
+                        position  : absolute;
+                        right     : 0;
+                        top       : 15px;
+                        width     : 40px;
+                        text-align: center;
+                        transition: all .3s ease 0s;
+                    }
+                }
+
+                ul.tab-child {
+                    list-style  : none;
+                    padding-left: 0;
+                    display     : none;
+                    margin-bottom: 0;
+                    li {
+                        font-size       : 16px;
+                        line-height     : 1.5;
+                        font-family     : $font_family_second;
+                        color           : $second_color;
+                        padding         : 10px 20px;
+                        background-color: #f8f8f8;
+                        border-top      : 1px solid #fff;
+
+                        span {
+                            margin-right: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
