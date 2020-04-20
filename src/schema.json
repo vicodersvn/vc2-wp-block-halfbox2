@@ -8,13 +8,13 @@
     "name": {
       "type": "string",
       "description": "Name of component",
-      "default": "VC Gallery",
+      "default": "VC Half box 2",
       "x-prompt": "Name of component"
     },
     "description": {
       "type": "string",
       "description": "Description of component",
-      "default": "VC Gallery Gutenburg Block",
+      "default": "VC Half box 2 Gutenburg Block",
       "x-prompt": "Description of component"
     },
     "category": {
